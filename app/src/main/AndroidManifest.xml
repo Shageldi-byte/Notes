@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Programma_Barada"></activity>
+        <activity android:name=".Hasabatlar_Statistika" />
+        <activity android:name=".Galyndyny_almak" />
+        <activity android:name=".harytlary_almak" />
+        <activity android:name=".bazadaky_harytlar" />
+        <activity android:name=".taryh_statistika" />
+        <activity android:name=".taryh_ichi" />
+        <activity android:name=".hasabatlar_taryh" />
+        <activity android:name=".Hasabatlar_Taryhy" />
+        <activity android:name=".esasy_menu"
+            android:theme="@style/tolbarsyz"/>
+        <activity android:name=".Search_Resminama" />
+        <activity android:name=".update_resminama" />
+        <activity android:name=".edit_resminama" />
+        <activity android:name=".delete_resminama" />
+        <activity android:name=".Add_Resminama" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Update_Nokat" />
+        <activity android:name=".Nokat_Ac" />
+        <activity android:name=".Add_Nokat" />
+        <activity android:name=".delete_nokat" />
+        <activity android:name=".edit_nokat" />
+        <activity android:name=".nokat_uytget" />
+        <activity android:name=".Update_two" />
+        <activity
+            android:name=".Nokat"
+            android:label="@string/title_activity_nokat" />
+        <activity android:name=".Send_data" />
+        <activity android:name=".update" />
+        <activity android:name=".Change_Data" />
+        <activity
+            android:name=".Show_Data"
+            android:theme="@style/tolbarsyz" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/tolbarsyz">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

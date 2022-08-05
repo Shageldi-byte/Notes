@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:animateLayoutChanges="true"
+
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mashyn">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/mashyn"
+                android:inputType="text"
+                android:textColor="#000"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/customIconSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/et_bg"
+            android:spinnerMode="dialog"
+            />
+
+        <Spinner
+            android:id="@+id/resminama_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/et_bg"
+            android:spinnerMode="dialog"
+            />
+
+
+
+        <Spinner
+            android:id="@+id/olceg_birlik_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/et_bg"
+            android:spinnerMode="dialog"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_width="match_parent"
+
+
+
+            android:layout_height="wrap_content"
+            android:hint="@string/baha">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/baha"
+                android:inputType="number"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_width="match_parent"
+
+
+
+            android:layout_height="wrap_content"
+            android:hint="@string/girdeji_möçber">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/girdeyji_mpcberi"
+                android:inputType="number"
+                android:textColor="#000"
+
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_width="match_parent"
+
+
+            android:layout_height="wrap_content"
+            android:hint="@string/girdeji_pul">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/girdeyji_pul"
+                android:inputType="number"
+                android:textColor="#000"
+
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/hasaba_al"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:includeFontPadding="true"
+            android:background="@drawable/image11"
+            android:textSize="25dp"
+
+            />
+</LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

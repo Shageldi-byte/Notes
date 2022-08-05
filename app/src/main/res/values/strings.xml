@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Lomaý Haryt</string>
+    <string name="mashyn">Maşyn</string>
+    <string name="nokat">Nokat</string>
+    <string name="resm">Resminama</string>
+    <string name="olcheg_birlik">Ölçeg birlik</string>
+    <string name="baha">Baha</string>
+    <string name="girdeji_möçber">Girdeji möçberi</string>
+    <string name="girdeji_pul">Girdeji pul</string>
+    <string name="çykdajy_möçber">Çykdajy möçber</string>
+    <string name="çykdajy_pul">Çykdajy pul</string>
+    <string name="galyndy_möçber">Galyndy möçber</string>
+    <string name="galyndy_pul">Galyndy pul</string>
+    <string name="sene">Sene</string>
+    <string name="id">ID</string>
+    <string-array name="mashynlar">
+        <item>M1</item>
+        <item>M2</item>
+        <item>M3</item>
+        <item>M4</item>
+        <item>M5</item>
+
+    </string-array>
+    <string-array name="nokatlar">
+        <item>Nokat1</item>
+        <item>Nokat2</item>
+        <item>Nokat3</item>
+        <item>Nokat4</item>
+        <item>Nokat5</item>
+    </string-array>
+    <string-array name="olceg_birlikler">
+        <item>Karopka</item>
+        <item>Yashyk</item>
+    </string-array>
+    <string name="title_activity_nokat">Nokat</string>
+    <string name="title_home">Nokatlar</string>
+    <string name="title_dashboard">Nokat Goşmak</string>
+    <string name="title_notifications">Nokatlary üýtgetmek</string>
+    <string name="title_activity_resminama">resminama</string>
+</resources>

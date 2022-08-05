@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".update">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            boxBackgroundColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="ID">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/iduyteg"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            boxBackgroundColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/mashyn">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/mashynuytget"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            boxBackgroundColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/nokat">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/nokatuytget"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            boxBackgroundColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/resm">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/resminamauytget"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            boxBackgroundColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/olcheg_birlik">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/olceg_birlikuytget"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            boxBackgroundColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/baha">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/bahauytget"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            boxBackgroundColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/girdeji_möçber">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/girdeyji_mpcberiuytget"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            boxBackgroundColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="@string/girdeji_pul">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/girdeyji_puluytget"
+                android:inputType="text"
+                android:textColor="#FFF"
+                android:textColorHint="#FFF"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/uyget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="#FFF"
+            android:background="#2196F3"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:includeFontPadding="true"
+            android:text="Üýtgetmek"
+            android:layout_marginBottom="20dp"
+            android:textSize="25dp" />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+        android:textColorHint="#575656"
+        boxBackgroundColor="#FFF"
+        android:id="@+id/nokat_container"
+        android:layout_height="wrap_content"
+        android:hint="Nokadyň id-syny giriziň"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/nokat_id"
+            android:inputType="number"
+            android:textColor="#575656"
+            android:textColorHint="#575656"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/nokat_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:src="@drawable/image11"
+            android:id="@+id/update_nokat"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+
+
+            />
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/delete_nokat"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/image08"
+            android:background="@color/colorPrimary"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

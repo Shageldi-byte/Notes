@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Add_Resminama">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:textColorHint="#4E4C4C"
+        android:id="@+id/resminaam"
+        android:layout_height="wrap_content"
+        android:hint="Nokat ady">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/resminama_ady"
+            android:inputType="text"
+            android:textColor="#4E4C4C"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/clear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="#00FFFFFF"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:includeFontPadding="true"
+            android:src="@drawable/image01"
+            android:textSize="25dp"
+
+            />
+        <ImageButton
+            android:id="@+id/add_resminama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:background="#00FFFFFF"
+            android:paddingBottom="1dp"
+            android:paddingTop="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:includeFontPadding="true"
+            android:src="@drawable/image02"
+            android:textSize="25dp"
+
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

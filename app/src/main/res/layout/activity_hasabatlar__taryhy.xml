@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Hasabatlar_Taryhy">
+
+    <ListView
+        android:layout_above="@+id/ashak"
+        android:id="@+id/list_taryh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/ashak"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/sene_btn"
+            android:background="#15981B"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:text="Sene"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/nokat_btn"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:text="Nokat"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/resminama_btn"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:text="Resminama"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

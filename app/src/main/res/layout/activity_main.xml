@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:background="#BBC5C1C1"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID"
+        android:inputType="text"
+        android:hint="ID"
+/><EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:inputType="text"
+        android:hint="Write Your Name"
+/>    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/surname"
+    android:inputType="text"
+        android:hint="Write Your Surname"
+/>
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:id="@+id/mark"
+        android:hint="Write Your Mark"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addbtn"
+        android:layout_gravity="center_horizontal"
+        android:text="Add Data"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vievdata"
+        android:layout_gravity="center_horizontal"
+        android:text="View Data"
+        /><Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updatedata"
+        android:layout_gravity="center_horizontal"
+        android:text="UPDATE"
+        /><Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:layout_gravity="center_horizontal"
+        android:text="DELETE"
+        />
+
+</LinearLayout>
